@@ -257,3 +257,35 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* Media query: Larger devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Reasons section */
+
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+    #benefits-image {
+        order: 0;
+    
+    }
+
+    #benefits-mental {
+        order: 2;
+                     
+    }
+    #benefits-mental {
+        align-self: flex-start;
+        flex-basis: 200px;
+
+    }
+    #benefits-physical {
+     align-self: flex-end;
+   
+}
+}
